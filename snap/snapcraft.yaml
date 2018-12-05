@@ -13,7 +13,7 @@ confinement: devmode # use 'strict' once you have the right plugs and slots
 parts:
   usdx:
     # See 'snapcraft plugins'
-    source: git@github.com:UltraStar-Deluxe/USDX.git
+    source: https://github.com/timski/USDX.git
     source-tag: v2017.8.0
     plugin: autotools
     build-packages: [git, automake, make, gcc, fpc, libsdl2-image-dev, libavformat-dev, libswscale-dev, libsqlite3-dev, libfreetype6-dev, portaudio19-dev, libportmidi-dev, liblua5.3-dev, libopencv-highgui-dev]
